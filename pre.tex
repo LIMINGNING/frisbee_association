@@ -1,9 +1,10 @@
 \documentclass{sintefbeamer}
 \usepackage[UTF8]{ctex}
+% 强制指定宋体的粗体为“宋体-粗”，防止默认回退到黑体
+\setCJKmainfont[BoldFont=Songti SC Bold]{Songti SC}
 \usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{tcolorbox}
-
 
 % meta-data
 \title{极限飞盘协会成立答辩}
@@ -76,6 +77,10 @@
       \end{center}
       \vspace{0.5em}
       \parbox{\linewidth}{
+      \textcolor{sintefblue}{主要发起人}\\ 
+      杨佳智、李明柠、蔡洛萱
+      \\
+      \\
       \textcolor{sintefblue}{核心团队}\\
       由15位来自不同学部、年级的本硕博同学组成，涵盖管理、训练、赛事组织、宣传等多个职能部门。
       \\
@@ -132,47 +137,7 @@
 % \end{columns}
 % \end{frame}
 
-\begin{frame}{社员人数}{\thesection \, \secname}
 
-  \begin{columns}[onlytextwidth]
-    \begin{column}{0.4\textwidth}
-      \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{
-      
-      \textbf{\textcolor{sintefblue}{\fontsize{45pt}{54pt}\selectfont 60+}}
-      
-      次日常活动\\
-      
-      \textbf{\textcolor{sintefblue}{\fontsize{45pt}{54pt}\selectfont 500+}}
-      
-      成员社群基础（QQ与微信）\\
-      
-      \textbf{\textcolor{sintefblue}{\fontsize{45pt}{54pt}\selectfont 70+}}
-      
-      高度活跃成员
-    }
-    \end{column}
-
-    \begin{column}{0.6\textwidth}
-      
-      \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{
-      \begin{figure}
-        \centering
-        \includegraphics[height=\textheight, keepaspectratio]{./images/群聊.png}
-      \end{figure}
-    }
-      
-    \end{column}
-  \end{columns}
-
-   
-  % QQ群386人，微信群423人、257人，高度活跃人数为72人。
-  % \begin{center}
-  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/qq.png}
-  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/wx1.png}
-  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/wx2.png}
-  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/wx3.png}
-  % \end{center}
-\end{frame}
 
 \section{社团成立的目的和意义}
 
@@ -311,6 +276,48 @@
 \end{frame}
 
 \section{社团成立筹备工作情况}
+
+\begin{frame}{社员人数}{\thesection \, \secname}
+
+  \begin{columns}[onlytextwidth]
+    \begin{column}{0.4\textwidth}
+      \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{
+      
+      \textbf{\textcolor{sintefblue}{\fontsize{45pt}{54pt}\selectfont 60+}}
+      
+      次日常活动\\
+      
+      \textbf{\textcolor{sintefblue}{\fontsize{45pt}{54pt}\selectfont 500+}}
+      
+      成员社群基础（QQ与微信）\\
+      
+      \textbf{\textcolor{sintefblue}{\fontsize{45pt}{54pt}\selectfont 70+}}
+      
+      高度活跃成员
+    }
+    \end{column}
+
+    \begin{column}{0.6\textwidth}
+      
+      \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{
+      \begin{figure}
+        \centering
+        \includegraphics[height=\textheight, keepaspectratio]{./images/群聊.png}
+      \end{figure}
+    }
+      
+    \end{column}
+  \end{columns}
+
+   
+  % QQ群386人，微信群423人、257人，高度活跃人数为72人。
+  % \begin{center}
+  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/qq.png}
+  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/wx1.png}
+  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/wx2.png}
+  %   \includegraphics[width=0.25\textwidth,height=0.8\textheight, keepaspectratio]{./images/wx3.png}
+  % \end{center}
+\end{frame}
 
 \begin{frame}{日常活动}{\thesection \, \secname}
   \begin{center}
@@ -549,92 +556,100 @@
 % \end{columns}
 % \end{frame}
 
-\begin{frame}{“深爱人才，圳在运动”\\全球名校人才体育风尚季飞盘赛}{\thesection \, \secname}
-  2025年9月13日，“深爱人才 圳在运动”全球名校人才体育风尚季飞盘赛在深圳市罗湖区仙桐体育公园激情开赛。哈尔滨工业大学深圳校区校友代表队凭借出色发挥，不仅以小组赛第一的身份晋级，更在全程五场赛事中取得四胜的亮眼战绩，充分展现了哈工大人的卓越竞技风采与精神风貌。
-\end{frame}
+% \begin{frame}{“深爱人才，圳在运动”\\全球名校人才体育风尚季飞盘赛}{\thesection \, \secname}
+%   2025年9月13日，“深爱人才 圳在运动”全球名校人才体育风尚季飞盘赛在深圳市罗湖区仙桐体育公园激情开赛。哈尔滨工业大学深圳校区校友代表队凭借出色发挥，不仅以小组赛第一的身份晋级，更在全程五场赛事中取得四胜的亮眼战绩，充分展现了哈工大人的卓越竞技风采与精神风貌。
+% \end{frame}
 
 \begin{frame}{“深爱人才，圳在运动”\\全球名校人才体育风尚季飞盘赛}{\thesection \, \secname}
   \begin{center}
-    \includegraphics[height=0.95\textheight, keepaspectratio]{./images/深爱人才.jpg}
+    \includegraphics[height=0.8\textheight, keepaspectratio]{./images/深爱人才.jpg}
   \end{center}
   \begin{center}
-    哈尔滨工业大学深圳校区校友代表队凭借出色发挥，不仅以小组赛第一的身份晋级，更在全程五场赛事中取得四胜的亮眼战绩，充分展现了哈工大人的卓越竞技风采与精神风貌。
-    
+    哈尔滨工业大学深圳校区校友代表队凭借出色发挥，在深圳市委举办的“深爱人才 圳在运动”全球名校人才体育风尚季飞盘赛中取得五站四胜的亮眼战绩。 
   \end{center}
 \end{frame}
 
-\begin{frame}{未来展望}{\thesection \, \secname}
-  \begin{itemize}
-    \item 计划建立极限飞盘校队，备战今年3月的全国大学生极限飞盘联赛预选赛，争取为学校赢得荣誉。
-  \end{itemize}
+\begin{frame}{全国飞盘赛事}{\thesection \, \secname}
   \begin{center}
-    \includegraphics[height=\textheight, keepaspectratio]{./images/cuua.jpg}
+    \includegraphics[width=\textwidth, keepaspectratio]{./images/观赛.pdf}
   \end{center}
+  \begin{itemize}
+    \item 计划建立极限飞盘校队，备战今年3月的全国大学生极限飞盘联赛预选赛。
+    \item 组织战术讲解与飞盘比赛观赛活动。
+  \end{itemize}
 \end{frame}
 
-\begin{frame}{宣传推广}{\thesection \, \secname}
-  \begin{itemize}
-    \item 组织飞盘比赛观赛活动，设计赛事纪念小飞盘，提升同学们对飞盘运动的兴趣。
-    \item 组织战术讲解与观赛活动，提升同学们对飞盘运动的理解。
-    \item 设计并制作队服，增强团队凝聚力。
-  \end{itemize}
+% \begin{frame}{未来展望}{\thesection \, \secname}
+%   \begin{itemize}
+%     \item 计划建立极限飞盘校队，备战今年3月的全国大学生极限飞盘联赛预选赛，争取为学校赢得荣誉。
+%   \end{itemize}
+%   \begin{center}
+%     \includegraphics[height=\textheight, keepaspectratio]{./images/cuua.jpg}
+%   \end{center}
+% \end{frame}
+
+% \begin{frame}{宣传推广}{\thesection \, \secname}
+%   \begin{itemize}
+%     \item 组织飞盘比赛观赛活动，设计赛事纪念小飞盘，提升同学们对飞盘运动的兴趣。
+%     \item 组织战术讲解与观赛活动，提升同学们对飞盘运动的理解。
+%     \item 设计并制作队服，增强团队凝聚力。
+%   \end{itemize}
   
-  \begin{center}
-    \includegraphics[height=0.9\textheight, keepaspectratio]{./images/观赛.jpg}
-  \end{center}
-\end{frame}
+%   \begin{center}
+%     \includegraphics[height=0.9\textheight, keepaspectratio]{./images/观赛.jpg}
+%   \end{center}
+% \end{frame}
 
-\begin{frame}{宣传推广}{\thesection \, \secname}
-  \begin{columns}
-  \begin{column}{0.5\textwidth}
-    \begin{figure}
-      \centering
-      \includegraphics[width=\textwidth]{./images/mini.jpg}
-      \caption{纪念小飞盘}
-    \end{figure}
-  \end{column}
-  \begin{column}{0.4\textwidth}
-    \begin{figure}
-      \centering
-      \includegraphics[height=0.9\textheight]{./images/战术.jpg}
-      \caption{战术讲解}
-    \end{figure}
-  \end{column}
-\end{columns}
-\end{frame}
+% \begin{frame}{宣传推广}{\thesection \, \secname}
+%   \begin{columns}
+%   \begin{column}{0.5\textwidth}
+%     \begin{figure}
+%       \centering
+%       \includegraphics[width=\textwidth]{./images/mini.jpg}
+%       \caption{纪念小飞盘}
+%     \end{figure}
+%   \end{column}
+%   \begin{column}{0.4\textwidth}
+%     \begin{figure}
+%       \centering
+%       \includegraphics[height=0.9\textheight]{./images/战术.jpg}
+%       \caption{战术讲解}
+%     \end{figure}
+%   \end{column}
+% \end{columns}
+% \end{frame}
 
-\begin{frame}{宣传推广}{\thesection \, \secname}
-  \begin{columns}
-  \begin{column}{0.5\textwidth}
-    \begin{figure}
-      \centering
-      \includegraphics[height=0.9\textheight]{./images/白色队服.jpg}
-      \caption{白色队服}
-    \end{figure}
-  \end{column}
-  \begin{column}{0.5\textwidth}
-    \begin{figure}
-      \centering
-      \includegraphics[height=0.9\textheight]{./images/蓝色队服.jpg}
-      \caption{蓝色队服}
-    \end{figure}
-  \end{column}
-\end{columns}
-\end{frame}
+% \begin{frame}{宣传推广}{\thesection \, \secname}
+%   \begin{columns}
+%   \begin{column}{0.5\textwidth}
+%     \begin{figure}
+%       \centering
+%       \includegraphics[height=0.9\textheight]{./images/白色队服.jpg}
+%       \caption{白色队服}
+%     \end{figure}
+%   \end{column}
+%   \begin{column}{0.5\textwidth}
+%     \begin{figure}
+%       \centering
+%       \includegraphics[height=0.9\textheight]{./images/蓝色队服.jpg}
+%       \caption{蓝色队服}
+%     \end{figure}
+%   \end{column}
+% \end{columns}
+% \end{frame}
 
 \begin{frame}{宣传推广}{\thesection \, \secname}
   \begin{itemize}
     \item \textbf{线上宣传}：
       \begin{itemize}
-        \item 建立微信公众号、抖音等新媒体平台，建立本校\href{https://hitsz-frisbee.top}{极限飞盘协会网站}
-        \item 制作\href{https://www.bilibili.com/video/BV1oNLVznEKZ/}{宣传视频}和海报
+        \item 建立本校\href{https://hitsz-frisbee.top}{极限飞盘协会网站}
+        \item 通过小红书个人帐号发布飞盘技战术教学，收获近万粉丝
       \end{itemize}
     \item \textbf{线下推广}：
       \begin{itemize}
         \item 百团大战宣传
         \item 游园会宣传
       \end{itemize}
-    \item \textbf{品牌建设}：设计协会LOGO、口号和队服
   \end{itemize}
 \end{frame}
 
